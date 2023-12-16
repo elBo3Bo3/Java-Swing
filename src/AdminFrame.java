@@ -43,7 +43,7 @@ public class AdminFrame extends JFrame implements ActionListener{
         setTitle("Administration");
         getContentPane().setBackground(bgcolor);
         getContentPane().setLayout(new BorderLayout(20,20));
-        ImageIcon appico = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\sabonner.png");
+        ImageIcon appico = new ImageIcon("images/sabonner.png");
         setIconImage(appico.getImage());
 
         //array des panels
@@ -60,8 +60,8 @@ public class AdminFrame extends JFrame implements ActionListener{
         panels[5].setLayout(new GridLayout(1,2,20,20));
         panels[6].setLayout(new GridLayout(2,1,20,20));
 
-        ImageIcon retour = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\retour.png");
-        ImageIcon rechercher = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\loupe.png");
+        ImageIcon retour = new ImageIcon("images/retour.png");
+        ImageIcon rechercher = new ImageIcon("images/loupe.png");
 
         boutons = new JButton[]{new JButton("Rechercher"),new JButton("Retour")};
         for (JButton btn : boutons) {

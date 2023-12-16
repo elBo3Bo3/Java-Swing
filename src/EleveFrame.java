@@ -33,7 +33,7 @@ public class EleveFrame extends JFrame implements ActionListener{
         setTitle("Inscription");
         getContentPane().setBackground(bgcolor);
         getContentPane().setLayout(new BorderLayout(20,20));
-        ImageIcon appico = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\sabonner.png");
+        ImageIcon appico = new ImageIcon("images/sabonner.png");
         setIconImage(appico.getImage());
 
         /*frame components*/
@@ -46,9 +46,9 @@ public class EleveFrame extends JFrame implements ActionListener{
         panels[3].setLayout(new GridLayout(6,2,20,20));
 
         //déclarer les icones afin de les mettre dans les boutons
-        ImageIcon tick = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\valider.png");
-        ImageIcon annuler = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\annuler.png");
-        ImageIcon retour = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\retour.png");
+        ImageIcon tick = new ImageIcon("images/valider.png");
+        ImageIcon annuler = new ImageIcon("images/annuler.png");
+        ImageIcon retour = new ImageIcon("images/retour.png");
 
         //array des labels
         labels = new JLabel[]{new JLabel("Nom :"),new JLabel("Prénom :"),
@@ -78,7 +78,7 @@ public class EleveFrame extends JFrame implements ActionListener{
         }
 
         //array des boutons
-        boutons = new JButton[]{new JButton("isncrire"),new JButton("Annuler"),new JButton("Retour")};
+        boutons = new JButton[]{new JButton("inscrire"),new JButton("Annuler"),new JButton("Retour")};
         boutons[0].setIcon(tick);
         boutons[1].setIcon(annuler);
         boutons[2].setIcon(retour);

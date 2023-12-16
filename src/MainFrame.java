@@ -29,7 +29,7 @@ public class MainFrame extends JFrame implements ActionListener{
         getContentPane().setBackground(bgcolor);
         getContentPane().setLayout(new BorderLayout(20,40));
         setMinimumSize(new Dimension(400,400));
-        ImageIcon appico = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\sabonner.png");
+        ImageIcon appico = new ImageIcon("images/sabonner.png");
         setIconImage(appico.getImage());
 
         /*composants du fenétre*/
@@ -44,8 +44,8 @@ public class MainFrame extends JFrame implements ActionListener{
         panels[3].setSize(new Dimension(300,200));
 
         //déclarer les icones afin de les mettre dans les boutons
-        ImageIcon eleve = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\eleve.png");
-        ImageIcon admin = new ImageIcon("C:\\Users\\dhiab\\Desktop\\DSJava\\images\\reglages.png");
+        ImageIcon eleve = new ImageIcon("images/eleve.png");
+        ImageIcon admin = new ImageIcon("images/reglages.png");
 
         //création des boutons et des labels
         labels = new JLabel[]{new JLabel("Bienvenue"),new JLabel("Copyright© None is reserved")};
